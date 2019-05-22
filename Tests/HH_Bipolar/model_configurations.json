@@ -1,0 +1,41 @@
+{
+  "model_1": {
+    "L_axon": 500,
+    "L_soma": 50,
+    "Ra": 1000,
+    "amp": 0.1,
+    "diam_axon": 1,
+    "diam_soma": 50,
+    "name": "slow bipolar axon",
+    "nseg_axon": 21,
+    "nseg_soma": 1,
+    "sim_length": 50,
+    "z_injection_location": "axon"
+  },
+  "model_2": {
+    "L_axon": 500,
+    "L_soma": 50,
+    "Ra": 1000,
+    "amp": 0.05,
+    "diam_axon": 1,
+    "diam_soma": 50,
+    "name": "slow bipolar both",
+    "nseg_axon": 21,
+    "nseg_soma": 1,
+    "sim_length": 50,
+    "z_injection_location": "both"
+  },
+  "model_3": {
+    "L_axon": 500,
+    "L_soma": 50,
+    "Ra": 1000,
+    "amp": 1,
+    "diam_axon": 1,
+    "diam_soma": 50,
+    "name": "slow bipolar soma",
+    "nseg_axon": 21,
+    "nseg_soma": 1,
+    "sim_length": 50,
+    "z_injection_location": "soma"
+  }
+}

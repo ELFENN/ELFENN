@@ -1,0 +1,29 @@
+{
+  "model_1": {
+    "name": "single",
+    "L": 200,
+    "diam": 1,
+    "nseg": 1,
+    "Ra": 35.4,
+    "amp": 0.05,
+    "sim_length": 50
+  },
+  "model_2": {
+    "name": "short",
+    "L": 200,
+    "diam": 1,
+    "nseg": 11,
+    "Ra": 35.4,
+    "amp": 0.05,
+    "sim_length": 50
+  },
+  "model_3": {
+    "name": "long",
+    "L": 1000,
+    "diam": 1,
+    "nseg": 21,
+    "Ra": 100,
+    "amp": 0.1,
+    "sim_length": 50
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding="utf-8"?>
+<toc version="2.0">
+
+    <tocitem target="ELFENN.html">ELFENN
+        <tocitem target="quickstart_guide.html">Quickstart Guide       
+            <tocitem target="quickstart_geometry.html">Geometry            
+            <tocitem target="quickstart_custom_geometry.html">Custom Geometry</tocitem>
+            <tocitem target="quickstart_imported_geometry.html">Imported Geometry</tocitem>
+        </tocitem>
+            <tocitem target="quickstart_dynamics.html">Dynamics</tocitem>
+            <tocitem target="quickstart_stimulus.html">Stimulus</tocitem>
+            <tocitem target="quickstart_connectivity.html">Connectivity</tocitem>
+            <tocitem target="quickstart_solver.html">Solver</tocitem>
+            <tocitem target="quickstart_visualization.html">Visualization</tocitem>
+        </tocitem>
+        <tocitem target="examples.html">Examples
+            <tocitem target="geometry_examples.html">Geometry
+                <tocitem target="pyramidal_example.html">Pyramidal Cell</tocitem>
+                <tocitem target="basket_example.html">Basket Cell</tocitem>
+            </tocitem>
+                        
+            <tocitem target="simulation_examples.html">Simulation                
+                <tocitem target="cortical_interneuron_example.html">Cortical Interneuron</tocitem>
+            </tocitem>
+        </tocitem>
+        
+        <tocitem target="documentation.html">Documentation</tocitem>
+    </tocitem>
+
+</toc>

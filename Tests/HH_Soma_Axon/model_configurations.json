@@ -1,0 +1,26 @@
+{
+  "model_1": {
+    "L_axon": 100,
+    "L_soma": 50,
+    "Ra": 34.5,
+    "amp": 1,
+    "diam_axon": 1,
+    "diam_soma": 50,
+    "name": "short axon",
+    "nseg_axon": 11,
+    "nseg_soma": 1,
+    "sim_length": 100
+  },
+  "model_2": {
+    "L_axon": 1000,
+    "L_soma": 50,
+    "Ra": 1000,
+    "amp": 1,
+    "diam_axon": 1,
+    "diam_soma": 50,
+    "name": "slow axon",
+    "nseg_axon": 71,
+    "nseg_soma": 1,
+    "sim_length": 100
+  }
+}

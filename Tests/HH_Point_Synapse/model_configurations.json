@@ -1,0 +1,32 @@
+{
+  "model_1": {
+    "name": "single",
+    "L": 200,
+    "diam": 1,
+    "nseg": 1,
+    "Ra": 35.4,
+    "t_on": 20,
+    "g_max": 2,
+    "sim_length": 50
+  },
+  "model_2": {
+    "name": "multi",
+    "L": 200,
+    "diam": 1,
+    "nseg": 3,
+    "Ra": 35.4,
+    "t_on": 20,
+    "g_max": 2,
+    "sim_length": 50
+  },
+  "model_3": {
+    "name": "multiple_spikes",
+    "L": 200,
+    "diam": 1,
+    "nseg": 3,
+    "Ra": 35.4,
+    "t_on": [20, 50],
+    "g_max": 2,
+    "sim_length": 100
+  }
+}

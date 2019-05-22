@@ -1,0 +1,209 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="2783698881" file="F:\Documents\spatial_ephaptic\ELFENN.prj" location="F:\Documents\spatial_ephaptic" name="ELFENN" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>ELFENN</param.appname>
+    <param.authnamewatermark>Aaron R. Shifman, John E. Lewis</param.authnamewatermark>
+    <param.email>ashifman@uottawa.ca</param.email>
+    <param.company>University of Ottawa</param.company>
+    <param.summary>MATLAB Toolxbox for modeling ephaptic coupling</param.summary>
+    <param.description>ELFENN (ELectric Field Effects in Neural Networks) is a MATLAB toolbox which provides an easy to use interface to the Holt and Koch (1999) method of modeling ephaptic coupling for spiking neuron models.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\ELFENN.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>dbef92be-aece-475d-9eff-8f303a945b42</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+.git
+.gitignore
+Tests/config.json</param.exclude.filters>
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples&gt;
+   &lt;exampleCategory name="doc"&gt;
+      &lt;example name="ELFENN" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/ELFENN.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/ELFENN.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="basket_example" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/basket_example.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/basket_example.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="cortical_interneuron_example" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/cortical_interneuron_example.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/cortical_interneuron_example.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="documentation" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/documentation.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/documentation.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="examples" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/examples.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/examples.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="geometry_examples" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/geometry_examples.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/geometry_examples.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="pyramidal_example" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/pyramidal_example.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/pyramidal_example.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="quickstart_connectivity" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/quickstart_connectivity.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/quickstart_connectivity.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="quickstart_custom_geometry" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/quickstart_custom_geometry.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/quickstart_custom_geometry.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="quickstart_dynamics" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/quickstart_dynamics.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/quickstart_dynamics.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="quickstart_geometry" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/quickstart_geometry.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/quickstart_geometry.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="quickstart_guide" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/quickstart_guide.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/quickstart_guide.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="quickstart_imported_geometry" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/quickstart_imported_geometry.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/quickstart_imported_geometry.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="quickstart_solver" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/quickstart_solver.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/quickstart_solver.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="quickstart_stimulus" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/quickstart_stimulus.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/quickstart_stimulus.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="quickstart_visualization" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/quickstart_visualization.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/quickstart_visualization.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="simulation_examples" type="html"&gt;
+         &lt;file type="source"&gt;/doc/html/simulation_examples.html&lt;/file&gt;
+         &lt;file type="main"&gt;/doc/simulation_examples.mlx&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+&lt;/examples&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs>${PROJECT_ROOT}\info.xml</param.docs>
+    <param.getting.started.guide>${PROJECT_ROOT}\doc\GettingStarted.mlx</param.getting.started.guide>
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>false</param.exported.on.package>
+    <param.release.start />
+    <param.release.end />
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <unset>
+      <param.screenshot />
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.pcodedmfiles />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.exported.on.package />
+      <param.release.start />
+      <param.release.end />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+    </unset>
+    <fileset.rootdir>
+      <file>F:\Documents\spatial_ephaptic</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\demos.xml</file>
+      <file>${PROJECT_ROOT}\doc</file>
+      <file>${PROJECT_ROOT}\images</file>
+      <file>${PROJECT_ROOT}\info.xml</file>
+      <file>${PROJECT_ROOT}\README.rst</file>
+      <file>${PROJECT_ROOT}\ServerInterface.py</file>
+      <file>${PROJECT_ROOT}\source</file>
+      <file>${PROJECT_ROOT}\testELFENN.m</file>
+      <file>${PROJECT_ROOT}\Tests</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="F:\Documents\spatial_ephaptic" name="ELFENN.mltbx" optional="false">F:\Documents\spatial_ephaptic\ELFENN.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
