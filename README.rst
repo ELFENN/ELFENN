@@ -21,7 +21,7 @@ Contact
 
 ELFENN arose out of a personal project, and thus features have been added as needed.
 
-For any feature requests, bug reports, comments or questions: please raise an issue on Github or email at ashifman@uottawa.ca
+For any feature requests, bug reports, comments or questions: please raise an issue on Github or email at ashif060@uottawa.ca
 
 Reference
 =========
